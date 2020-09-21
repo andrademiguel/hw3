@@ -1,33 +1,26 @@
+const day = prompt("Enter three letter abbreviation of a day of the week:");
 
-var input = window.prompt('Enter day of the week: ');
-
-switch (input) {
-    case 1: 
-        alert("Sun");
-        break;
-    case 2:
-        alert("Mon")
-        break;
-    case 3:
-        alert("Tue")
-        break;
-    case 4:
-        alert("Wed")
-        break;
-    case 5:
-        alert("Thu")
-        break;
-    case 6:
-        alert("Fri")
-        break;
-    case 7:
-        alert("Sat")
-        break;
+if (day === "mon") {
+  console.log(`You entered: ${day}`);  
+  console.log("The following day is: tuesday");
+} else if (day === "tue") {
+    console.log(`You entered: ${day}`); 
+    console.log("The following day is: wednesday");
+} else if (day === "wed") {
+    console.log(`You entered: ${day}`); 
+    console.log("The following day is: thursday");
+} else if (day === "thu") {
+    console.log(`You entered: ${day}`); 
+    console.log("The following day is: friday");
+} else if (day === "fri") {
+    console.log(`You entered: ${day}`); 
+    console.log("The following day is: saturday");
+} else if (day === "sat") {
+    console.log(`You entered: ${day}`);
+    console.log("The following day is: sunday"); 
+} else if (day === "sun") {
+    console.log(`You entered: ${day}`); 
+    console.log("The following day is: monday");
+} else {
+  console.log("Unrecognized day!");
 }
-document.write("You entered:  " +  input + "\n");
-document.write("The following day is:" + day + "\n");
-
-console.log(input);
-console.log(day);
-
-//work on assignment #2 

@@ -1,4 +1,6 @@
-var num= prompt("Enter a number");
-var i= 0; 
-for (i=0; i<=10; i++)
-document.writeln(num +  " X " + i + " = " + num*i );
+let number_input = parseInt(prompt('Enter an integer: '));
+
+for(let i = 1; i <= 10; i++) {
+    result = i * number_input;
+console.log(`${number_input} X ${i} = ${result}`);
+}
